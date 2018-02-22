@@ -11,6 +11,29 @@ function test() {
 
 ```
 
+## Components
+
+An component is a simple array with some page data:
+
+```
+array(
+	'page_number' => 2
+	'url' => '//www.example.com/?page=2',
+	'is_current' => false,
+	'is' => 'next'
+)
+```
+
+There are 6 possible components available via their methods:
+- getFirstPage(): to get data of the first page. There's always a first page available.
+- getPrevPage(): to get the previous page. Previous is not available on the first page, because there is no previous page.
+- getCurrentPage(): to get data of the current page. Always available.
+- getAdjacentPages(): to get an array with data of the adjacent pages. This is an optional component.
+- getNextPage(): to get data of the next page. Next is not available on the last page, because there is no next page.
+- getLastPage(): to get data of the last page. There's always a last page available.
+
+Use the method getPageCollection() to get an array with all the components at once.
+
 ## Installation
 
 Install with composer:
