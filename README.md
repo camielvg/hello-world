@@ -11,6 +11,14 @@ function test() {
 
 ```
 
+## Installation
+
+Install with composer:
+
+```
+$ composer require ...
+```
+
   some other text
 
 - item 1
