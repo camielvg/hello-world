@@ -19,6 +19,17 @@ Install with composer:
 $ composer require ...
 ```
 
+## Sql query example
+
+An example to paginate database results.
+
+```
+$limit = $pagination->itemsPerPage;
+$offset = $pagination->itemsOffset;
+$sql = "SELECT * FROM {$table} LIMIT {$limit} OFFSET {$offset}";
+```
+
+
   some other text
 
 - item 1
