@@ -9,11 +9,6 @@ function test() {
 ```
 
 
-There are 6 possible components available via their methods:
-- `getFirstPage()`: to get data of the first page. There's always a first page available.
-- `getPrevPage()`: to get the previous page. Previous is not available on the first page, because a previous page doesn't exist. 
-- getCurrentPage(): to get data of the current page. Always available.
-
 ## Installation
 
 Install with composer:
