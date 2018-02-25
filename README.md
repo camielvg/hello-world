@@ -13,10 +13,10 @@ function test() {
 Install with composer:
 
 ```
-$ composer require "camielvg/hello-world:1.0.*"
+composer require "camielvg/hello-world:1.0.*"
 ```
 
-Or add it to your composer.json file:
+Or by adding it to your composer.json file:
 
 ```
 {
