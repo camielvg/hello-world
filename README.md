@@ -13,8 +13,24 @@ function test() {
 Install with composer:
 
 ```
-$ composer require ...
+$ composer require "camielvg/hello-world:1.0.*"
 ```
+
+Or add it to your composer.json file:
+
+```
+{
+    "require": {
+        "camielvg/hello-world": "1.0.*"
+    }
+}
+```
+
+It is also possible to use the Hello world class without using composer.
+You only have to include the file src/helloworld.php to use the class in your project.
+
+## Basic usage
+
   some other text
 
 - item 1
