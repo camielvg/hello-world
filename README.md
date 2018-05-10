@@ -39,4 +39,4 @@ You only have to include the file [src/helloworld.php](src/helloworld.php) into 
 - item 3
   - item 3.1
   - item 3.2
-  - new item 3.3
+  - item 3.3
